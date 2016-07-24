@@ -1,5 +1,5 @@
-	<?php
-	class Singleton {
+<?php
+class Singleton {
     function Singleton( $directCall = true ) {
         if ( $directCall ) {
             trigger_error("Нельзя использовать конструктор для создания класса Singleton. 
